@@ -6,7 +6,8 @@ const questions = [
     b: "Coding Style Sheets",
     c: "Cascading Simple Sheets",
     d: "Cars SUVs & Sailboats",
-    correct: "a",
+    e: "non of the above"
+    ,correct: "a",
   },
   {
     question: "When was Coding Summer/Spring School founded?",
@@ -14,24 +15,35 @@ const questions = [
     b: "2021",
     c: "2022",
     d: "2023",
-    correct: "b",
+    e: "1999"
+    ,correct: "b",
   },
   {
     question: "Which organisation did the Coding Summer/Spring School initially start in?",
     a: "Bosnia and Herzegovina Famous Foundation",
     b: "Bosnia and Herzegovina Futures Foundation",
     c: "Bosnia and Herzegovina Factory Foundation",
-    d: "none of the above",
-    correct: "b",
+    d: "Bosnia and Herzegovina Flame Foundation",
+    e: "non of the above"
+    ,correct: "b",
+    },
     {
-
-    }
     question: "What esport team won VALORANT LOCK//IN Sao Paulo Championship 2023?",
     a: "DRX",
     b: "Fnatic",
     c: "Sentinels",
     d: "LOUD",
-    correct: "b"
+    e: "Optic"
+    ,correct: "b"
+    },
+    {
+    question: "What animal is the new Valorant agent named after?",
+    a: "Snake",
+    b: "Shark",
+    c: "Bear",
+    d: "Butterfly",
+    e: "Gekko"
+    ,correct: "e"
   },
 ];
 
@@ -43,6 +55,7 @@ const a_text = document.getElementById("a_text");
 const b_text = document.getElementById("b_text");
 const c_text = document.getElementById("c_text");
 const d_text = document.getElementById("d_text");
+const e_text = document.getElementById("e_text")
 const submitButton = document.getElementById("submit");
 
 //Counters
@@ -72,6 +85,7 @@ const loadQuiz = () => {
   b_text.innerText = currentQuizData.b;
   c_text.innerText = currentQuizData.c;
   d_text.innerText = currentQuizData.d;
+  e_text.innerText = currentQuizData.e;
 };
 
 //Loading the quiz
