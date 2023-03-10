@@ -23,6 +23,15 @@ const questions = [
     c: "Bosnia and Herzegovina Factory Foundation",
     d: "none of the above",
     correct: "b",
+    {
+
+    }
+    question: "What esport team won VALORANT LOCK//IN Sao Paulo Championship 2023?",
+    a: "DRX",
+    b: "Fnatic",
+    c: "Sentinels",
+    d: "LOUD",
+    correct: "b"
   },
 ];
 
